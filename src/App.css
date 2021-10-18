@@ -1,0 +1,86 @@
+.row-header{
+  margin:5px 0px 5px 0px;
+  padding:5px 0px 5px 0px;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 10px 0px 10px 0px;
+  border-left: 3px solid #D1C4E9;
+}
+
+.footer{
+  background-color: #D1C4E9;
+  margin:0px 0px 0px 0px;
+  padding: 20px 0px 20px 0px;
+}
+.jumbotron {
+  padding:10px 10px 10px 0px;
+  margin:0px 0px 0px 0px;
+  background: #D1C4E9;
+  color:rgb(0, 0, 0);
+}
+
+.headingText {
+  color: #512DA8;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: #512DA8;
+}
+
+.rangeSlideLeft {
+  border-color: #512DA8;
+  background-color: #512DA8;
+}
+
+.rangeSlideRight {
+  border-color: #D1C4E9;
+  background-color: #D1C4E9;
+}
+
+.leftBorder {
+  border-left: 3px solid #D1C4E9;
+}
+
+.zeroPaddingZeroMargin {
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+}
+
+.zeroMargin {
+  margin:0px 0px 0px 0px;
+}
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+
+.form-range {
+  color: #512DA8;
+  width: 100%
+}
