@@ -10,21 +10,13 @@ import ProgrammingLanguage from './ProgrammingLanguageComponent';
 import Profile from './ProfileComponent';
 import PersonalInfo from './PersonalInfoComponent';
 import Hobbies from './HobbiesComponent';
-<<<<<<< HEAD:src/components/Template_1/ResumePrintViewComponent.js
 import Declaration from './DeclarationComponent';
-=======
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8:src/components/ResumePrintViewComponent.js
 
 class ResumePrintView extends Component {
   
     render() {
     return (
-<<<<<<< HEAD:src/components/Template_1/ResumePrintViewComponent.js
             <div className="container-fluid ml-0 mt-0 mr-0 mb-0 d-print-flex">
-=======
-            
-            <div className="container-fluid ml-0 mt-5 mr-0 mb-0 d-print-flex">
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8:src/components/ResumePrintViewComponent.js
                 <div className="row ml-0 mt-0 mr-0 mb-0">
                     <div className="col-12 ml-0">
                         <Header Header={this.props.resume.Header} />

@@ -1,6 +1,5 @@
 import * as ActionTypes from './ActionTypes';
 import { baseUrl } from '../common/baseUrl';
-<<<<<<< HEAD
 import { actions } from 'react-redux-form';
 
 export const updateResume = (resume) => (dispatch) => {
@@ -86,45 +85,6 @@ export const fetchResume = (email) => (dispatch) => {
   dispatch(resumeLoading());
 
   return fetch(baseUrl + 'resume/' + resumeID)
-=======
-
-export const saveResume = (resume) => ({
-    type: ActionTypes.SAVE_RESUME,
-    payload: resume
-});
-
-export const putResume = (resume) => (dispatch) => {
-
-    var resumeID = resume.Header.Email;
-    return fetch(baseUrl + 'resume/' + resumeID, {
-        method: "PUT",
-        body: JSON.stringify(resume),
-        headers: {
-          "Content-Type": "application/json"
-        },
-        credentials: "same-origin"
-    })
-    .then(response => {
-        if (response.ok) {
-          return response;
-        } else {
-          var error = new Error('Error ' + response.status + ': ' + response.statusText);
-          error.response = response;
-          throw error;
-        }
-      },
-      error => {
-            throw error;
-      })
-    .then(response => response.json())
-    .then(response => dispatch(saveResume(response)))
-    .catch(error =>  { console.log('post comments', error.message); alert('Your comment could not be posted\nError: '+error.message); });
-};
-
-export const fetchResume = (resumeID) => (dispatch) => {
-
-    return fetch(baseUrl + 'resume/' + resumeID)
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
     .then(response => {
         if (response.ok) {
           return response;
@@ -139,11 +99,7 @@ export const fetchResume = (resumeID) => (dispatch) => {
             throw errmess;
       })
     .then(response => response.json())
-<<<<<<< HEAD
     .then(response => dispatch(updateResume(response)))
-=======
-    .then(dishes => dispatch(addResume(dishes)))
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
     .catch(error => dispatch(resumeFailed(error.message)));
 }
 
@@ -153,7 +109,6 @@ export const resumeFailed = (errmess) => ({
     payload: errmess
 });
 
-<<<<<<< HEAD
 export const resumeLoading = () => ({
   type: ActionTypes.RESUME_LOADING
 });
@@ -161,13 +116,3 @@ export const resumeLoading = () => ({
 export const updateResumeLoading = () => ({
   type: ActionTypes.UPDATE_RESUME
 })
-=======
-export const addResume = (resume) => ({
-    type: ActionTypes.ADD_RESUME,
-    payload: resume
-});
-
-export const resumeLoading = () => ({
-  type: ActionTypes.RESUME_LOADING
-});
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8

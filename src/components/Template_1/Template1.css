@@ -1,24 +1,14 @@
-<<<<<<< HEAD
 .row-header-template1{
   margin:3px 0px 3px 0px;
   padding:3px 0px 3px 0px;
 }
 
 .row-content-template1 {
-=======
-.row-header{
-  margin:5px 0px 5px 0px;
-  padding:5px 0px 5px 0px;
-}
-
-.row-content {
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
   margin:0px 0px 0px 0px;
   padding: 10px 0px 10px 0px;
   border-left: 3px solid #BDD7EE;
 }
 
-<<<<<<< HEAD
 .jumbotron-template1 {
   padding:15px 15px 15px 15px;
   margin:0px 0px 0px 0px;
@@ -52,48 +42,3 @@
 .bottomBorder-template1 {
   border-bottom: 3px solid #BDD7EE;
 }
-=======
-.jumbotron {
-  padding:10px 10px 10px 0px;
-  margin:0px 0px 0px 0px;
-  background: #BDD7EE;
-  color:rgb(0, 0, 0);
-}
-
-.headingText {
-  color: #0070C0;
-}
-
-.rangeSlideLeft {
-  border-top: 5px solid #0070C0;
-}
-
-.rangeSlideRight {
-  border-top: 5px solid #BDD7EE;
-}
-
-.leftBorder {
-  border-left: 3px solid #BDD7EE;
-}
-
-.rightBorder {
-  border-right: 3px solid #BDD7EE;
-}
-
-.topBorder {
-  border-top: 3px solid #BDD7EE;
-}
-
-.bottomBorder {
-  border-bottom: 3px solid #BDD7EE;
-}
-
-.zeroPaddingZeroMargin {
-  padding:0px 0px 0px 0px;
-  margin:0px 0px 0px 0px;
-}
-
-.zeroMargin {
-  margin:0px 0px 0px 0px;
-}
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8

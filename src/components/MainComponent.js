@@ -4,7 +4,6 @@ import ResumeEditor from './Resume_Editor/ResumeEditorComponent'
 import { RESUME_DATA } from '../data/resume_data';
 import Header from './HeaderComponent';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
-<<<<<<< HEAD
 import { connect } from 'react-redux';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { fetchResume, saveResume, updateResume } from '../redux/ActionCreators';
@@ -20,8 +19,6 @@ const mapDispatchToProps = dispatch => ({
   updateResume: (resume) => dispatch(updateResume(resume)),
   saveResume: (resume) => dispatch(saveResume(resume))
 });
-=======
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
 
 class Main extends Component {
   
@@ -43,7 +40,6 @@ class Main extends Component {
     return (
       <div>
 
-<<<<<<< HEAD
         <div className="container-fluid d-print-none" hidden={this.state.hideHeader}>
           <Header fetchResume={this.props.fetchResume}/>
         </div>
@@ -59,15 +55,6 @@ class Main extends Component {
               </Switch>
             </CSSTransition>
           </TransitionGroup>
-=======
-        <div className="containerfluid d-print-none">
-          {/* <Header />
-          <Route exact path='/editor' component={() => <ResumeEditor resume={this.props.resume} />} /> */}
-        </div>
-        <div>
-          <ResumePrintView resume={RESUME_DATA} />
-        </div>
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
       </div>
     );
   }

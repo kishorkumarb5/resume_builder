@@ -7,11 +7,7 @@ function RenderEducation({EducationItem}) {
     return (
         <div>
             <div className={ROW_CONTENT}>
-<<<<<<< HEAD
                 <div className="col-4 headingText-template1" style={fontStyle}>
-=======
-                <div className="col-4 headingText" style={fontStyle}>
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
                     {EducationItem.From} - {EducationItem.To} <br />
                 </div>
                 <div className="col-8 text-right">
@@ -19,11 +15,7 @@ function RenderEducation({EducationItem}) {
                     at <b>{EducationItem.CollegeName} | {EducationItem.University}</b> <br />
                 </div>
             </div>
-<<<<<<< HEAD
             <div className="row row-header-template1"></div>
-=======
-            <div className="row row-header"></div>
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
         </div>
         );
 }
@@ -46,11 +38,7 @@ class Education extends Component {
                     })
                 }
             </div>
-<<<<<<< HEAD
             <div className="row row-header-template1"></div>
-=======
-            <div className="row row-header"></div>
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
         </div>
     );
   }

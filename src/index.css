@@ -1,18 +1,11 @@
 body {
   margin: 0;
-<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, 'Calibri', 'Segoe UI', 'Oxygen', 'Roboto', 'Times New Roman', 'Helvetica',
-=======
-  font-family: -apple-system, BlinkMacSystemFont, 'Arial', 'Segoe UI', 'Oxygen', 'Roboto', 'Times New Roman', 'Helvetica',
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-<<<<<<< HEAD
   font-size: 95%;
-=======
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
 }
 
 code {

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-<<<<<<< HEAD
 import { Switch, Route, Redirect } from 'react-router-dom'
 import { TransitionGroup } from 'react-transition-group';
 import { BrowserRouter } from 'react-router-dom';
@@ -50,26 +49,8 @@ class ResumeEditor extends Component {
             </div>
         </BrowserRouter>
     </div>
-=======
-class ResumeEditor extends Component {
-  
-    render() {
-    return (
-            
-            <div className="container-fluid ml-0 mt-5 mr-0 mb-0">
-                <div className="row ml-0 mt-0 mr-0 mb-0">
-                    <div className="col-12 ml-0">
-                      Resume Editor
-                    </div>
-                </div>
-            </div>
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
     );
     }
 }
 
-<<<<<<< HEAD
 export default ResumeEditor;
-=======
-export default ResumeEditor;
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8

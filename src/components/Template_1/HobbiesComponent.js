@@ -16,11 +16,7 @@ class Hobbies extends Component {
                   })
               }
           </ul>
-<<<<<<< HEAD
             <div className="row row-header-template1"></div>
-=======
-            <div className="row row-header"></div>
->>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
         </div>
     );
   }
