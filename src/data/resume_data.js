@@ -1,6 +1,7 @@
 export const RESUME_DATA = {
+	id: "kishorkumarb5_gmail_com",
 	Header: {
-		Name: "Kishor Kumar B",
+		Name: "Kishor Kumar Basavaraju",
 		Mobile: "+91 8904693795",
 		Email: "kishorkumarb5@gmail.com",
 		LinkedinURL: "www.linkedin.com/in/kishor-kumar-0b9268a8",
@@ -45,6 +46,13 @@ export const RESUME_DATA = {
 		},
 		{
 			item: "SOLID Principle",
+<<<<<<< HEAD
+			rating: 80
+		}	,
+		{
+			item: "Design Patterns",
+=======
+>>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
 			rating: 80
 		}	,
 		{
@@ -52,7 +60,11 @@ export const RESUME_DATA = {
 			rating: 80
 		},
 		{
+<<<<<<< HEAD
+			item: "Unit testing using Gtest",
+=======
 			item: "Socket Communication",
+>>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
 			rating: 80
 		}
 	],
@@ -89,10 +101,14 @@ export const RESUME_DATA = {
 			To: "Present",
 			Designation: "Software Developer",
 			Description: [
-			"Working on the core modules of X-ray screening system which optimizes security checks in ports & borders",
+			"Working on the core modules of X-ray screening system which optimizes security checks in ports & borders.",
 			"Implementing new features which involved complex design and multi-threading.",
 			"Collaborating with project managers and POs to select ambitious. but realistic coding milestones on pre-release software project development.",
+<<<<<<< HEAD
+			"Documented technical workflows and knowledge in private wiki (confluence) for education of newly hired employees.",
+=======
 			"Documented technical workflows and knowledge in private wiki (confluence) for education of newly hired employees",
+>>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
 			]
 		},
 		{
@@ -140,6 +156,11 @@ export const RESUME_DATA = {
 	Hobbies: [
 		"Playing chess, Sudoku and solving brain teasers",
 		"Playing Badminton and Bowling"
+<<<<<<< HEAD
+	],
+	Declaration: "I hereby declare that the above-mentioned information is accurate to the best of my knowledge.",	
+=======
 	]	
 	
+>>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
 };

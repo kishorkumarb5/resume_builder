@@ -1,0 +1,115 @@
+<<<<<<< HEAD
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color: #BDD7EE;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.jumbotronMain {
+  padding:5px 5px 5px 5px;
+  margin:0px auto;
+  background: #BDD7EE ;
+  border: 1px auto solid #BDD7EE;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: #0070C0;
+}
+
+.navbar-light {
+  background-color: #BDD7EE;
+  color: #0070C0;
+  border: 0px 1px 0px 1px solid #0070C0
+}
+
+.page-enter {
+  opacity: 0.01;
+  transform: translateX(-100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: all 300ms ease-in;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.page-exit-active {
+  opacity: 0.01;
+  transform: translateX(100%);
+  transition: all 300ms ease-out;
+}
+
+.zeroPaddingZeroMargin {
+  padding:0px 0px 0px 0px;
+  margin:0px 0px 0px 0px;
+}
+
+.zeroMargin {
+  margin:0px 0px 0px 0px;
+}
+
+.allsideBorder {
+  border-left: 1px solid #0070C0;
+  border-top: 1px solid #0070C0;
+  border-right: 1px solid #0070C0;
+  border-bottom: 1px solid #0070C0;
+
+}
+
+.page {
+  width: 21cm;
+  min-height: 29.7cm;
+  padding: 0cm;
+  margin: 0cm auto;
+  border: 0px 0px 0px 0px;
+  border-radius: 0px;
+  background: white;
+}
+.subpage {
+  padding: 1cm;
+  border: 5px red solid;
+  height: 237mm;
+  outline: 2cm #FFEAEA solid;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  .page {
+      margin: 0;
+      border: 0;
+      border-radius: 0;
+      width: initial;
+      min-height: initial;
+      box-shadow: initial;
+      background: initial;
+      page-break-after: always;
+  }
+}
+=======
+>>>>>>> b6be2c81be0faac4d1c6df60389aebe66e62aae8
